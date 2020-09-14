@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/QuinnrElder/udemy-node-class/issues"
   },
-  "homepage": "https://github.com/QuinnrElder/udemy-node-class#readme"
+  "homepage": "https://github.com/QuinnrElder/udemy-node-class#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
