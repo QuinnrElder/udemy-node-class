@@ -1,0 +1,19 @@
+const express = require('express')
+const app = express()
+
+app.use("/", (req, res, next) => {
+  console.log("this will always run...")
+  next()
+})
+
+app.use("/add-product", (req, res, next) => {
+  console.log("add product")
+  res.send("<h1>The Add product page</h1>")
+})
+
+app.use("/", (req, res, next) => {
+  console.log("root")
+  res.send("<h1>Hello from express</h1>")
+})
+
+app.listen(3000)

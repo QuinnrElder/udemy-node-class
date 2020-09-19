@@ -1,0 +1,26 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "udemy class node.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinnrElder/udemy-node-class.git"
+  },
+  "author": "Quinn Elder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuinnrElder/udemy-node-class/issues"
+  },
+  "homepage": "https://github.com/QuinnrElder/udemy-node-class#readme"
+}
